@@ -2,11 +2,11 @@
   "name": "vue-webpack-brunch",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "Anthony Gore <anthony@magnum.technology>",
+  "author": "Anthony Gore <agor8684@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "brunch watch --server",
+    "build": "brunch build -p"
   },
   "dependencies": {
     "vue": "^2.3.3"
@@ -24,10 +24,9 @@
     "node-sass": "^4.5.0",
     "sass-brunch": "^2.10.4",
     "sass-loader": "^5.0.1",
+    "uglify-js-brunch": "^2.10.0",
     "vue-brunch": "^2.0.1",
     "vue-loader": "^12.1.0",
-    "vue-template-compiler": "^2.3.3",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "vue-template-compiler": "^2.3.3"
   }
 }
